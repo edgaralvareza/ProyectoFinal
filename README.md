@@ -1,5 +1,5 @@
 # RestIpFraudes
- Proyecto final para academia de IBM desarrollado con Java 11
+ Proyecto final para academia de IBM desarrollado con Java 11 en IntelliJ IDEA Comunity Edition
  
 El proyecto está compuesto por los siguientes elementos:
 POO
@@ -15,8 +15,7 @@ JPA / Hibernate
 Logs
 Patrón DTO
 Métodos encapsulados
-
-
+# Endpoints
 Los endpoints para consultar las funciones de la api principal se describen a continuación:
 
 Consultar información completa de una IP y obtener datos de su moneda: "URL"+ IP que se desea consultar
@@ -27,3 +26,5 @@ http://localhost:8090/api-gateway/api/v1/rest-ip/ip/consultarinfo/ip/187.189.221
 o
 http://localhost:8090/api-gateway/api/v1/rest-ip/ip/consultarinfo/ip/127.127.127.127
 
+# Comentarios adicionales
+-Al ejecutar coon debug "RestIp" se puede desplegar un warning/error pero no influye en el funcionamiento del programa, únicamente se debe omitir el breakpoint y dejar que el programa se ejecute hasta el final. 
