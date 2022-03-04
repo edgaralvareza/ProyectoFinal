@@ -33,7 +33,6 @@ public class Ip implements Serializable
     @Temporal(TemporalType.DATE)
     private Date fechaCreacion;
 
-
     @Transient
     private Integer puerto;
 
