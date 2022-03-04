@@ -1,0 +1,713 @@
+2022-03-02 01:09:43,037 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EurekaServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 15488 (C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\EurekaServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\EurekaServer)
+2022-03-02 01:09:43,063 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-02 01:09:43,656 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-02 01:09:43,658 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-02 01:09:48,100 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=8596a4c2-a67b-35e6-b321-647c4b06b37f
+2022-03-02 01:09:49,442 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8761 (http)
+2022-03-02 01:09:49,460 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8761"]
+2022-03-02 01:09:49,461 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-02 01:09:49,462 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-02 01:09:49,661 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-02 01:09:49,661 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6000 ms
+2022-03-02 01:09:50,893 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [restartedMain] Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-03-02 01:09:51,016 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-02 01:09:51,019 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-02 01:09:51,440 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-02 01:09:51,441 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-02 01:09:55,412 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-03-02 01:09:55,832 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses Jersey
+2022-03-02 01:09:56,091 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-02 01:09:56,138 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-02 01:09:56,217 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-02 01:09:56,218 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Client configured to neither register nor query for data.
+2022-03-02 01:09:56,231 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646204996229 with initial instances count: 0
+2022-03-02 01:09:56,288 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initializing ...
+2022-03-02 01:09:56,292 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Adding new peer nodes [http://localhost:8761/eureka/]
+2022-03-02 01:09:56,629 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-02 01:09:56,630 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-02 01:09:56,630 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-02 01:09:56,631 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-02 01:09:56,786 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Replica node URL:  http://localhost:8761/eureka/
+2022-03-02 01:09:56,803 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [restartedMain] Finished initializing remote region registries. All known remote regions: []
+2022-03-02 01:09:56,804 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initialized
+2022-03-02 01:09:56,816 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-03-02 01:09:56,886 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-EUREKA-SERVER with eureka with status UP
+2022-03-02 01:09:56,890 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8761"]
+2022-03-02 01:09:56,891 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Setting the eureka configuration..
+2022-03-02 01:09:56,926 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] isAws returned false
+2022-03-02 01:09:56,927 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Initialized server context
+2022-03-02 01:09:56,927 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Got 1 instances from neighboring DS node
+2022-03-02 01:09:56,928 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Renew threshold is: 1
+2022-03-02 01:09:56,928 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Changing status to UP
+2022-03-02 01:09:56,953 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-15] Started Eureka Server
+2022-03-02 01:09:56,964 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8761 (http) with context path ''
+2022-03-02 01:09:56,966 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8761
+2022-03-02 01:09:57,249 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EurekaServerApplication in 16.747 seconds (JVM running for 21.909)
+2022-03-02 01:10:04,023 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8761-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-02 01:10:04,023 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-9] Initializing Servlet 'dispatcherServlet'
+2022-03-02 01:10:04,025 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-9] Completed initialization in 2 ms
+2022-03-02 01:10:56,941 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-02 01:11:56,948 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 7ms
+2022-03-02 01:12:56,975 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 27ms
+2022-03-02 01:13:54,696 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application API-EUREKA-SERVER with eureka with status DOWN
+2022-03-02 01:13:54,913 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2022-03-02 01:13:54,919 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2022-03-02 01:13:54,944 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2022-03-02 01:13:54,945 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2022-03-02 01:13:54,947 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2022-03-02 01:13:54,963 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2022-03-02 01:13:54,978 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-02 01:13:54,979 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-03-02 01:14:03,010 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EurekaServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 7808 (C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\EurekaServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\EurekaServer)
+2022-03-02 01:14:03,024 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-02 01:14:03,163 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-02 01:14:03,164 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-02 01:14:06,005 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=8596a4c2-a67b-35e6-b321-647c4b06b37f
+2022-03-02 01:14:07,274 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8761 (http)
+2022-03-02 01:14:07,295 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8761"]
+2022-03-02 01:14:07,296 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-02 01:14:07,297 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-02 01:14:07,521 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-02 01:14:07,521 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4355 ms
+2022-03-02 01:14:08,571 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [restartedMain] Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-03-02 01:14:08,711 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-02 01:14:08,714 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-02 01:14:09,149 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-02 01:14:09,151 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-02 01:14:11,638 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-03-02 01:14:11,910 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses Jersey
+2022-03-02 01:14:12,042 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-02 01:14:12,078 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-02 01:14:12,143 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-02 01:14:12,145 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Client configured to neither register nor query for data.
+2022-03-02 01:14:12,174 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646205252172 with initial instances count: 0
+2022-03-02 01:14:12,239 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initializing ...
+2022-03-02 01:14:12,243 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Adding new peer nodes [http://localhost:8761/eureka/]
+2022-03-02 01:14:12,658 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-02 01:14:12,658 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-02 01:14:12,659 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-02 01:14:12,659 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-02 01:14:12,846 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Replica node URL:  http://localhost:8761/eureka/
+2022-03-02 01:14:12,867 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [restartedMain] Finished initializing remote region registries. All known remote regions: []
+2022-03-02 01:14:12,869 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initialized
+2022-03-02 01:14:12,889 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-03-02 01:14:12,967 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-EUREKA-SERVER with eureka with status UP
+2022-03-02 01:14:12,980 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8761"]
+2022-03-02 01:14:12,986 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Setting the eureka configuration..
+2022-03-02 01:14:13,010 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] isAws returned false
+2022-03-02 01:14:13,010 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Initialized server context
+2022-03-02 01:14:13,011 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Got 1 instances from neighboring DS node
+2022-03-02 01:14:13,011 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Renew threshold is: 1
+2022-03-02 01:14:13,012 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Changing status to UP
+2022-03-02 01:14:13,036 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-15] Started Eureka Server
+2022-03-02 01:14:13,052 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8761 (http) with context path ''
+2022-03-02 01:14:13,054 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8761
+2022-03-02 01:14:13,354 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EurekaServerApplication in 11.693 seconds (JVM running for 14.082)
+2022-03-02 01:14:46,788 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8761-exec-10] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-02 01:14:46,789 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-10] Initializing Servlet 'dispatcherServlet'
+2022-03-02 01:14:46,790 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-10] Completed initialization in 1 ms
+2022-03-02 01:15:13,050 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-02 01:16:13,060 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 9ms
+2022-03-02 01:17:13,060 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-02 01:18:13,064 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-03-02 01:19:13,070 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 6ms
+2022-03-02 01:20:13,082 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 12ms
+2022-03-02 01:21:13,095 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 12ms
+2022-03-02 01:22:13,097 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-02 01:23:13,097 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-02 01:24:13,100 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 2ms
+2022-03-02 01:25:13,109 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 8ms
+2022-03-02 01:26:13,116 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 7ms
+2022-03-02 01:26:21,674 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/host.docker.internal:api-ip:8001 with status UP (replication=false)
+2022-03-02 01:26:22,395 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-IP/host.docker.internal:api-ip:8001 with status UP (replication=true)
+2022-03-02 01:27:13,132 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 16ms
+2022-03-02 01:28:09,738 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application API-EUREKA-SERVER with eureka with status DOWN
+2022-03-02 01:28:09,996 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2022-03-02 01:28:10,026 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2022-03-02 01:28:10,049 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2022-03-02 01:28:10,050 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2022-03-02 01:28:10,051 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2022-03-02 01:28:10,057 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2022-03-02 01:28:10,068 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-02 01:28:10,070 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-03-02 01:30:40,113 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EurekaServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 14292 (C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\EurekaServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\EurekaServer)
+2022-03-02 01:30:40,120 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-02 01:30:40,275 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-02 01:30:40,275 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-02 01:30:42,380 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=3c131a2e-ca07-38b6-81a7-378a94b6f8b8
+2022-03-02 01:30:43,495 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8761 (http)
+2022-03-02 01:30:43,512 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8761"]
+2022-03-02 01:30:43,513 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-02 01:30:43,513 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-02 01:30:43,691 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-02 01:30:43,692 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3416 ms
+2022-03-02 01:30:44,685 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [restartedMain] Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-03-02 01:30:44,854 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-02 01:30:44,858 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-02 01:30:45,246 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-02 01:30:45,247 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-02 01:30:47,568 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-03-02 01:30:47,873 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses Jersey
+2022-03-02 01:30:47,999 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-02 01:30:48,039 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-02 01:30:48,113 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-02 01:30:48,114 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Client configured to neither register nor query for data.
+2022-03-02 01:30:48,132 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646206248129 with initial instances count: 0
+2022-03-02 01:30:48,207 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initializing ...
+2022-03-02 01:30:48,213 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Adding new peer nodes [http://localhost:8761/eureka/]
+2022-03-02 01:30:48,588 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-02 01:30:48,588 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-02 01:30:48,588 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-02 01:30:48,588 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-02 01:30:48,766 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Replica node URL:  http://localhost:8761/eureka/
+2022-03-02 01:30:48,782 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [restartedMain] Finished initializing remote region registries. All known remote regions: []
+2022-03-02 01:30:48,784 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initialized
+2022-03-02 01:30:48,802 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-03-02 01:30:48,853 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-EUREKA-SERVER with eureka with status UP
+2022-03-02 01:30:48,859 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8761"]
+2022-03-02 01:30:48,865 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Setting the eureka configuration..
+2022-03-02 01:30:48,888 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] isAws returned false
+2022-03-02 01:30:48,891 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Initialized server context
+2022-03-02 01:30:48,891 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Got 1 instances from neighboring DS node
+2022-03-02 01:30:48,892 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Renew threshold is: 1
+2022-03-02 01:30:48,893 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Changing status to UP
+2022-03-02 01:30:48,906 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-15] Started Eureka Server
+2022-03-02 01:30:48,918 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8761 (http) with context path ''
+2022-03-02 01:30:48,920 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8761
+2022-03-02 01:30:49,155 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EurekaServerApplication in 10.139 seconds (JVM running for 11.959)
+2022-03-02 01:31:48,921 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-02 01:32:03,317 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-02 01:32:03,318 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-03-02 01:32:03,320 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 1 ms
+2022-03-02 01:32:03,759 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/api-ip:88768e88849f10820175d6b38d0911df with status UP (replication=false)
+2022-03-02 01:32:04,425 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-IP/api-ip:88768e88849f10820175d6b38d0911df with status UP (replication=true)
+2022-03-02 01:32:34,437 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-IP/api-ip:ee03b8edb2c18bc1f60139b3ed837da0 with status UP (replication=false)
+2022-03-02 01:32:34,970 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-IP/api-ip:ee03b8edb2c18bc1f60139b3ed837da0 with status UP (replication=true)
+2022-03-02 01:32:48,936 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 14ms
+2022-03-02 01:32:49,031 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-IP/api-ip:ee03b8edb2c18bc1f60139b3ed837da0 with status DOWN (replication=false)
+2022-03-02 01:32:49,111 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-IP/api-ip:88768e88849f10820175d6b38d0911df with status DOWN (replication=false)
+2022-03-02 01:32:49,562 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-IP/api-ip:ee03b8edb2c18bc1f60139b3ed837da0 with status DOWN (replication=true)
+2022-03-02 01:32:49,571 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-IP/api-ip:88768e88849f10820175d6b38d0911df with status DOWN (replication=true)
+2022-03-02 01:32:52,752 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Cancelled instance API-IP/api-ip:ee03b8edb2c18bc1f60139b3ed837da0 (replication=false)
+2022-03-02 01:32:52,858 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Cancelled instance API-IP/api-ip:88768e88849f10820175d6b38d0911df (replication=false)
+2022-03-02 01:32:53,280 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:ee03b8edb2c18bc1f60139b3ed837da0
+2022-03-02 01:32:53,281 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-3] Not Found (Cancel): API-IP - api-ip:ee03b8edb2c18bc1f60139b3ed837da0
+2022-03-02 01:32:53,363 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:88768e88849f10820175d6b38d0911df
+2022-03-02 01:32:53,364 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-3] Not Found (Cancel): API-IP - api-ip:88768e88849f10820175d6b38d0911df
+2022-03-02 01:32:53,375 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-2] The replication of task API-IP/api-ip:ee03b8edb2c18bc1f60139b3ed837da0:Cancel@localhost failed with response code 404
+2022-03-02 01:32:53,376 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-2] API-IP/api-ip:ee03b8edb2c18bc1f60139b3ed837da0:Cancel@localhost: missing entry.
+2022-03-02 01:32:53,377 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-2] The replication of task API-IP/api-ip:88768e88849f10820175d6b38d0911df:Cancel@localhost failed with response code 404
+2022-03-02 01:32:53,377 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-2] API-IP/api-ip:88768e88849f10820175d6b38d0911df:Cancel@localhost: missing entry.
+2022-03-02 01:33:48,942 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 6ms
+2022-03-02 01:34:48,951 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 9ms
+2022-03-02 01:35:48,966 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 14ms
+2022-03-02 01:36:48,970 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-03-02 01:37:49,028 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 58ms
+2022-03-02 01:38:02,890 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-IP/api-ip:8a68cbc2f4a9b38c9b174ed8b53df07e with status UP (replication=false)
+2022-03-02 01:38:03,410 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-IP/api-ip:8a68cbc2f4a9b38c9b174ed8b53df07e with status UP (replication=true)
+2022-03-02 01:38:22,619 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-IP/api-ip:98677b76d2be5aa6c8e5e1ffa0d9f8b2 with status UP (replication=false)
+2022-03-02 01:38:23,155 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-IP/api-ip:98677b76d2be5aa6c8e5e1ffa0d9f8b2 with status UP (replication=true)
+2022-03-02 01:38:49,038 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 9ms
+2022-03-02 01:39:49,050 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 11ms
+2022-03-02 01:40:49,061 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 11ms
+2022-03-02 01:41:49,067 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 6ms
+2022-03-02 01:42:49,078 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 10ms
+2022-03-02 01:43:48,519 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-IP/api-ip:8a68cbc2f4a9b38c9b174ed8b53df07e with status DOWN (replication=false)
+2022-03-02 01:43:48,567 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-IP/api-ip:98677b76d2be5aa6c8e5e1ffa0d9f8b2 with status DOWN (replication=false)
+2022-03-02 01:43:49,052 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-IP/api-ip:8a68cbc2f4a9b38c9b174ed8b53df07e with status DOWN (replication=true)
+2022-03-02 01:43:49,053 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-IP/api-ip:98677b76d2be5aa6c8e5e1ffa0d9f8b2 with status DOWN (replication=true)
+2022-03-02 01:43:49,090 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 12ms
+2022-03-02 01:43:52,237 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Cancelled instance API-IP/api-ip:8a68cbc2f4a9b38c9b174ed8b53df07e (replication=false)
+2022-03-02 01:43:52,315 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Cancelled instance API-IP/api-ip:98677b76d2be5aa6c8e5e1ffa0d9f8b2 (replication=false)
+2022-03-02 01:43:52,844 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:8a68cbc2f4a9b38c9b174ed8b53df07e
+2022-03-02 01:43:52,846 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-3] Not Found (Cancel): API-IP - api-ip:8a68cbc2f4a9b38c9b174ed8b53df07e
+2022-03-02 01:43:52,846 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:98677b76d2be5aa6c8e5e1ffa0d9f8b2
+2022-03-02 01:43:52,848 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-3] Not Found (Cancel): API-IP - api-ip:98677b76d2be5aa6c8e5e1ffa0d9f8b2
+2022-03-02 01:43:52,850 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-19] The replication of task API-IP/api-ip:8a68cbc2f4a9b38c9b174ed8b53df07e:Cancel@localhost failed with response code 404
+2022-03-02 01:43:52,850 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-19] API-IP/api-ip:8a68cbc2f4a9b38c9b174ed8b53df07e:Cancel@localhost: missing entry.
+2022-03-02 01:43:52,850 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-19] The replication of task API-IP/api-ip:98677b76d2be5aa6c8e5e1ffa0d9f8b2:Cancel@localhost failed with response code 404
+2022-03-02 01:43:52,850 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-19] API-IP/api-ip:98677b76d2be5aa6c8e5e1ffa0d9f8b2:Cancel@localhost: missing entry.
+2022-03-02 01:44:47,763 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-IP/api-ip:7d6d2d47c18ec7599f47289ec0d3e7dd with status UP (replication=false)
+2022-03-02 01:44:48,295 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-IP/api-ip:7d6d2d47c18ec7599f47289ec0d3e7dd with status UP (replication=true)
+2022-03-02 01:44:49,092 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-02 01:45:38,774 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-IP/api-ip:a0a0bf9d1aa68ac03969a1fcf8fcef44 with status UP (replication=false)
+2022-03-02 01:45:39,301 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-IP/api-ip:a0a0bf9d1aa68ac03969a1fcf8fcef44 with status UP (replication=true)
+2022-03-02 01:45:41,980 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance API-IP/api-ip:a0a0bf9d1aa68ac03969a1fcf8fcef44 (replication=false)
+2022-03-02 01:45:42,507 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:a0a0bf9d1aa68ac03969a1fcf8fcef44
+2022-03-02 01:45:42,507 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-5] Not Found (Cancel): API-IP - api-ip:a0a0bf9d1aa68ac03969a1fcf8fcef44
+2022-03-02 01:45:42,509 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-8] The replication of task API-IP/api-ip:a0a0bf9d1aa68ac03969a1fcf8fcef44:Cancel@localhost failed with response code 404
+2022-03-02 01:45:42,509 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-8] API-IP/api-ip:a0a0bf9d1aa68ac03969a1fcf8fcef44:Cancel@localhost: missing entry.
+2022-03-02 01:45:48,797 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 3
+2022-03-02 01:45:49,092 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-02 01:45:52,678 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/api-ip:7d6d2d47c18ec7599f47289ec0d3e7dd with status DOWN (replication=false)
+2022-03-02 01:45:53,214 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-IP/api-ip:7d6d2d47c18ec7599f47289ec0d3e7dd with status DOWN (replication=true)
+2022-03-02 01:45:56,234 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Cancelled instance API-IP/api-ip:7d6d2d47c18ec7599f47289ec0d3e7dd (replication=false)
+2022-03-02 01:45:56,763 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:7d6d2d47c18ec7599f47289ec0d3e7dd
+2022-03-02 01:45:56,763 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-9] Not Found (Cancel): API-IP - api-ip:7d6d2d47c18ec7599f47289ec0d3e7dd
+2022-03-02 01:45:56,765 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-10] The replication of task API-IP/api-ip:7d6d2d47c18ec7599f47289ec0d3e7dd:Cancel@localhost failed with response code 404
+2022-03-02 01:45:56,765 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-10] API-IP/api-ip:7d6d2d47c18ec7599f47289ec0d3e7dd:Cancel@localhost: missing entry.
+2022-03-02 01:46:49,095 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-03-02 01:47:49,098 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-03-02 01:48:49,114 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 15ms
+2022-03-02 01:49:05,288 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-IP/api-ip:272f359f6644977c88ba83e0cec85848 with status UP (replication=false)
+2022-03-02 01:49:05,802 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-IP/api-ip:272f359f6644977c88ba83e0cec85848 with status UP (replication=true)
+2022-03-02 01:49:11,499 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/api-ip:272f359f6644977c88ba83e0cec85848 with status DOWN (replication=false)
+2022-03-02 01:49:12,029 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-IP/api-ip:272f359f6644977c88ba83e0cec85848 with status DOWN (replication=true)
+2022-03-02 01:49:14,954 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Cancelled instance API-IP/api-ip:272f359f6644977c88ba83e0cec85848 (replication=false)
+2022-03-02 01:49:15,482 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:272f359f6644977c88ba83e0cec85848
+2022-03-02 01:49:15,483 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-9] Not Found (Cancel): API-IP - api-ip:272f359f6644977c88ba83e0cec85848
+2022-03-02 01:49:15,486 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-7] The replication of task API-IP/api-ip:272f359f6644977c88ba83e0cec85848:Cancel@localhost failed with response code 404
+2022-03-02 01:49:15,487 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-7] API-IP/api-ip:272f359f6644977c88ba83e0cec85848:Cancel@localhost: missing entry.
+2022-03-02 01:49:44,886 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-IP/host.docker.internal:api-ip:8001 with status UP (replication=false)
+2022-03-02 01:49:45,484 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-IP/host.docker.internal:api-ip:8001 with status UP (replication=true)
+2022-03-02 01:49:49,117 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-03-02 01:50:19,838 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-IP/host.docker.internal:api-ip:8001 with status DOWN (replication=false)
+2022-03-02 01:50:20,363 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-IP/host.docker.internal:api-ip:8001 with status DOWN (replication=true)
+2022-03-02 01:50:23,248 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Cancelled instance API-IP/host.docker.internal:api-ip:8001 (replication=false)
+2022-03-02 01:50:23,814 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] DS: Registry: cancel failed because Lease is not registered for: API-IP/host.docker.internal:api-ip:8001
+2022-03-02 01:50:23,893 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-7] Not Found (Cancel): API-IP - host.docker.internal:api-ip:8001
+2022-03-02 01:50:23,904 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-10] The replication of task API-IP/host.docker.internal:api-ip:8001:Cancel@localhost failed with response code 404
+2022-03-02 01:50:23,905 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-10] API-IP/host.docker.internal:api-ip:8001:Cancel@localhost: missing entry.
+2022-03-02 01:50:49,124 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 6ms
+2022-03-02 01:50:55,591 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-IP/host.docker.internal:api-ip:0 with status UP (replication=false)
+2022-03-02 01:50:56,117 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/host.docker.internal:api-ip:0 with status UP (replication=true)
+2022-03-02 01:51:49,134 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 9ms
+2022-03-02 01:52:20,530 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application API-EUREKA-SERVER with eureka with status DOWN
+2022-03-02 01:52:20,701 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2022-03-02 01:52:20,711 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2022-03-02 01:52:20,719 INFO com.netflix.servo.monitor.StatsMonitor [SpringApplicationShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2022-03-02 01:52:20,721 INFO com.netflix.servo.monitor.StatsMonitor [SpringApplicationShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2022-03-02 01:52:20,723 INFO com.netflix.servo.monitor.StatsMonitor [SpringApplicationShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2022-03-02 01:52:20,728 INFO com.netflix.servo.monitor.StatsMonitor [SpringApplicationShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2022-03-02 01:52:20,745 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2022-03-02 01:52:20,745 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2022-03-02 01:52:20,746 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2022-03-02 01:52:20,753 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2022-03-02 01:52:20,768 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-02 01:52:20,770 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-03-02 02:01:28,944 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EurekaServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 1680 (C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\EurekaServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\EurekaServer)
+2022-03-02 02:01:28,952 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-02 02:01:29,110 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-02 02:01:29,111 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-02 02:01:31,448 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=3c131a2e-ca07-38b6-81a7-378a94b6f8b8
+2022-03-02 02:01:32,694 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8761 (http)
+2022-03-02 02:01:32,720 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8761"]
+2022-03-02 02:01:32,721 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-02 02:01:32,722 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-02 02:01:33,217 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-02 02:01:33,218 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4106 ms
+2022-03-02 02:01:35,468 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [restartedMain] Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-03-02 02:01:35,596 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-02 02:01:35,598 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-02 02:01:35,959 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-02 02:01:35,960 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-02 02:01:38,755 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-03-02 02:01:39,084 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses Jersey
+2022-03-02 02:01:39,378 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-02 02:01:39,415 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-02 02:01:39,487 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-02 02:01:39,487 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Client configured to neither register nor query for data.
+2022-03-02 02:01:39,512 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646208099507 with initial instances count: 0
+2022-03-02 02:01:39,569 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initializing ...
+2022-03-02 02:01:39,572 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Adding new peer nodes [http://localhost:8761/eureka/]
+2022-03-02 02:01:39,914 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-02 02:01:39,914 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-02 02:01:39,914 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-02 02:01:39,915 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-02 02:01:40,092 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Replica node URL:  http://localhost:8761/eureka/
+2022-03-02 02:01:40,124 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [restartedMain] Finished initializing remote region registries. All known remote regions: []
+2022-03-02 02:01:40,126 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initialized
+2022-03-02 02:01:40,147 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-03-02 02:01:40,223 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-EUREKA-SERVER with eureka with status UP
+2022-03-02 02:01:40,228 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8761"]
+2022-03-02 02:01:40,247 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Setting the eureka configuration..
+2022-03-02 02:01:40,270 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] isAws returned false
+2022-03-02 02:01:40,271 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Initialized server context
+2022-03-02 02:01:40,272 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Got 1 instances from neighboring DS node
+2022-03-02 02:01:40,272 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Renew threshold is: 1
+2022-03-02 02:01:40,272 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Changing status to UP
+2022-03-02 02:01:40,288 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-15] Started Eureka Server
+2022-03-02 02:01:40,302 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8761 (http) with context path ''
+2022-03-02 02:01:40,303 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8761
+2022-03-02 02:01:40,632 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EurekaServerApplication in 12.994 seconds (JVM running for 15.157)
+2022-03-02 02:02:04,784 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-02 02:02:04,785 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-03-02 02:02:04,787 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 1 ms
+2022-03-02 02:02:05,439 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/host.docker.internal:api-ip:8001 with status UP (replication=false)
+2022-03-02 02:02:06,155 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-IP/host.docker.internal:api-ip:8001 with status UP (replication=true)
+2022-03-02 02:02:40,282 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-02 02:03:40,285 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-03-02 02:04:40,296 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 10ms
+2022-03-02 02:05:40,308 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 12ms
+2022-03-02 02:06:40,313 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-03-02 02:07:40,314 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-02 02:08:40,320 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-03-02 02:09:40,332 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 12ms
+2022-03-02 02:10:40,346 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 13ms
+2022-03-02 02:11:40,347 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-02 02:12:40,354 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 6ms
+2022-03-02 02:13:40,365 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 11ms
+2022-03-02 02:14:40,380 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 13ms
+2022-03-02 02:15:40,394 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 15ms
+2022-03-02 02:16:40,125 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 3
+2022-03-02 02:16:40,403 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 9ms
+2022-03-02 02:17:40,411 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 6ms
+2022-03-02 02:17:42,159 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-IP/host.docker.internal:api-ip:8001 with status DOWN (replication=false)
+2022-03-02 02:17:42,701 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-IP/host.docker.internal:api-ip:8001 with status DOWN (replication=true)
+2022-03-02 02:17:45,690 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Cancelled instance API-IP/host.docker.internal:api-ip:8001 (replication=false)
+2022-03-02 02:17:46,216 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: cancel failed because Lease is not registered for: API-IP/host.docker.internal:api-ip:8001
+2022-03-02 02:17:46,217 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-1] Not Found (Cancel): API-IP - host.docker.internal:api-ip:8001
+2022-03-02 02:17:46,218 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-8] The replication of task API-IP/host.docker.internal:api-ip:8001:Cancel@localhost failed with response code 404
+2022-03-02 02:17:46,218 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-8] API-IP/host.docker.internal:api-ip:8001:Cancel@localhost: missing entry.
+2022-03-02 02:18:40,419 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 8ms
+2022-03-02 02:19:11,371 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-IP/api-ip:d8d2e05f7bdba1de4120f5f4beaffaf2 with status UP (replication=false)
+2022-03-02 02:19:12,019 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-IP/api-ip:d8d2e05f7bdba1de4120f5f4beaffaf2 with status UP (replication=true)
+2022-03-02 02:19:40,424 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-03-02 02:20:40,464 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 39ms
+2022-03-02 02:20:56,004 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-IP/api-ip:84d3087561b3a1581140c8f584d56196 with status UP (replication=false)
+2022-03-02 02:20:56,532 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-IP/api-ip:84d3087561b3a1581140c8f584d56196 with status UP (replication=true)
+2022-03-02 02:21:40,465 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-02 02:21:59,192 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-IP/api-ip:84d3087561b3a1581140c8f584d56196 with status DOWN (replication=false)
+2022-03-02 02:21:59,718 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-IP/api-ip:84d3087561b3a1581140c8f584d56196 with status DOWN (replication=true)
+2022-03-02 02:22:02,617 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Cancelled instance API-IP/api-ip:84d3087561b3a1581140c8f584d56196 (replication=false)
+2022-03-02 02:22:03,145 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:84d3087561b3a1581140c8f584d56196
+2022-03-02 02:22:03,146 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-1] Not Found (Cancel): API-IP - api-ip:84d3087561b3a1581140c8f584d56196
+2022-03-02 02:22:03,147 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-1] The replication of task API-IP/api-ip:84d3087561b3a1581140c8f584d56196:Cancel@localhost failed with response code 404
+2022-03-02 02:22:03,148 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-1] API-IP/api-ip:84d3087561b3a1581140c8f584d56196:Cancel@localhost: missing entry.
+2022-03-02 02:22:40,470 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-03-02 02:23:40,484 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 14ms
+2022-03-02 02:24:40,497 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 12ms
+2022-03-02 02:25:28,211 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-IP/api-ip:6f2a851886cecce951c6ae51c8c8cf05 with status UP (replication=false)
+2022-03-02 02:25:28,739 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/api-ip:6f2a851886cecce951c6ae51c8c8cf05 with status UP (replication=true)
+2022-03-02 02:25:40,507 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 10ms
+2022-03-02 02:26:40,518 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 11ms
+2022-03-02 02:27:40,528 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 10ms
+2022-03-02 02:27:44,203 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-IP/api-ip:d8d2e05f7bdba1de4120f5f4beaffaf2 with status DOWN (replication=false)
+2022-03-02 02:27:44,287 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-IP/api-ip:6f2a851886cecce951c6ae51c8c8cf05 with status DOWN (replication=false)
+2022-03-02 02:27:44,735 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/api-ip:d8d2e05f7bdba1de4120f5f4beaffaf2 with status DOWN (replication=true)
+2022-03-02 02:27:44,738 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/api-ip:6f2a851886cecce951c6ae51c8c8cf05 with status DOWN (replication=true)
+2022-03-02 02:27:46,831 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application API-EUREKA-SERVER with eureka with status DOWN
+2022-03-02 02:27:47,193 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2022-03-02 02:27:47,212 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2022-03-02 02:27:47,214 INFO com.netflix.servo.monitor.StatsMonitor [SpringApplicationShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2022-03-02 02:27:47,230 INFO com.netflix.servo.monitor.StatsMonitor [SpringApplicationShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2022-03-02 02:27:47,231 INFO com.netflix.servo.monitor.StatsMonitor [SpringApplicationShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2022-03-02 02:27:47,231 INFO com.netflix.servo.monitor.StatsMonitor [SpringApplicationShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2022-03-02 02:27:47,251 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2022-03-02 02:27:47,251 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2022-03-02 02:27:47,263 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2022-03-02 02:27:47,273 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2022-03-02 02:27:47,293 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-02 02:27:47,295 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-03-02 02:37:50,012 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EurekaServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 15140 (C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\EurekaServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\EurekaServer)
+2022-03-02 02:37:50,021 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-02 02:37:50,184 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-02 02:37:50,184 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-02 02:37:52,664 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=3c131a2e-ca07-38b6-81a7-378a94b6f8b8
+2022-03-02 02:37:54,107 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8761 (http)
+2022-03-02 02:37:54,127 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8761"]
+2022-03-02 02:37:54,128 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-02 02:37:54,129 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-02 02:37:54,652 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-02 02:37:54,653 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4468 ms
+2022-03-02 02:37:56,353 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [restartedMain] Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-03-02 02:37:56,490 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-02 02:37:56,493 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-02 02:37:56,871 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-02 02:37:56,871 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-02 02:37:59,236 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-03-02 02:37:59,494 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses Jersey
+2022-03-02 02:37:59,606 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-02 02:37:59,644 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-02 02:37:59,706 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-02 02:37:59,707 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Client configured to neither register nor query for data.
+2022-03-02 02:37:59,731 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646210279729 with initial instances count: 0
+2022-03-02 02:37:59,802 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initializing ...
+2022-03-02 02:37:59,805 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Adding new peer nodes [http://localhost:8761/eureka/]
+2022-03-02 02:38:00,156 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-02 02:38:00,157 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-02 02:38:00,157 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-02 02:38:00,157 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-02 02:38:00,319 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Replica node URL:  http://localhost:8761/eureka/
+2022-03-02 02:38:00,337 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [restartedMain] Finished initializing remote region registries. All known remote regions: []
+2022-03-02 02:38:00,341 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initialized
+2022-03-02 02:38:00,352 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-03-02 02:38:00,407 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-EUREKA-SERVER with eureka with status UP
+2022-03-02 02:38:00,412 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8761"]
+2022-03-02 02:38:00,418 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Setting the eureka configuration..
+2022-03-02 02:38:00,444 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] isAws returned false
+2022-03-02 02:38:00,445 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Initialized server context
+2022-03-02 02:38:00,445 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Got 1 instances from neighboring DS node
+2022-03-02 02:38:00,446 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Renew threshold is: 1
+2022-03-02 02:38:00,447 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Changing status to UP
+2022-03-02 02:38:00,466 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-15] Started Eureka Server
+2022-03-02 02:38:00,483 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8761 (http) with context path ''
+2022-03-02 02:38:00,484 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8761
+2022-03-02 02:38:00,731 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EurekaServerApplication in 12.177 seconds (JVM running for 14.391)
+2022-03-02 02:39:00,460 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-02 02:40:00,461 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-02 02:41:00,476 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 14ms
+2022-03-02 02:42:00,480 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-03-02 02:42:12,651 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-02 02:42:12,654 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-03-02 02:42:12,658 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 3 ms
+2022-03-02 02:42:13,144 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/api-ip:10ae8a1bf26c1856552d0aa8fcbe7066 with status UP (replication=false)
+2022-03-02 02:42:13,818 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-IP/api-ip:10ae8a1bf26c1856552d0aa8fcbe7066 with status UP (replication=true)
+2022-03-02 02:43:00,484 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-03-02 02:43:52,205 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-IP/api-ip:10ae8a1bf26c1856552d0aa8fcbe7066 with status DOWN (replication=false)
+2022-03-02 02:43:52,739 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-IP/api-ip:10ae8a1bf26c1856552d0aa8fcbe7066 with status DOWN (replication=true)
+2022-03-02 02:43:55,815 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Cancelled instance API-IP/api-ip:10ae8a1bf26c1856552d0aa8fcbe7066 (replication=false)
+2022-03-02 02:43:56,359 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:10ae8a1bf26c1856552d0aa8fcbe7066
+2022-03-02 02:43:56,372 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-8] Not Found (Cancel): API-IP - api-ip:10ae8a1bf26c1856552d0aa8fcbe7066
+2022-03-02 02:43:56,375 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-3] The replication of task API-IP/api-ip:10ae8a1bf26c1856552d0aa8fcbe7066:Cancel@localhost failed with response code 404
+2022-03-02 02:43:56,375 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-3] API-IP/api-ip:10ae8a1bf26c1856552d0aa8fcbe7066:Cancel@localhost: missing entry.
+2022-03-02 02:44:00,492 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 7ms
+2022-03-02 02:44:41,263 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-IP/api-ip:8a3aa20d28b46c26ee2a80a78d78364e with status UP (replication=false)
+2022-03-02 02:44:41,785 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/api-ip:8a3aa20d28b46c26ee2a80a78d78364e with status UP (replication=true)
+2022-03-02 02:45:00,503 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 11ms
+2022-03-02 02:46:00,517 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 14ms
+2022-03-02 02:47:00,521 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-03-02 02:47:40,231 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-IP/api-ip:8a3aa20d28b46c26ee2a80a78d78364e with status DOWN (replication=false)
+2022-03-02 02:47:40,751 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-IP/api-ip:8a3aa20d28b46c26ee2a80a78d78364e with status DOWN (replication=true)
+2022-03-02 02:47:43,692 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Cancelled instance API-IP/api-ip:8a3aa20d28b46c26ee2a80a78d78364e (replication=false)
+2022-03-02 02:47:44,224 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:8a3aa20d28b46c26ee2a80a78d78364e
+2022-03-02 02:47:44,225 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-5] Not Found (Cancel): API-IP - api-ip:8a3aa20d28b46c26ee2a80a78d78364e
+2022-03-02 02:47:44,227 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-7] The replication of task API-IP/api-ip:8a3aa20d28b46c26ee2a80a78d78364e:Cancel@localhost failed with response code 404
+2022-03-02 02:47:44,227 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-7] API-IP/api-ip:8a3aa20d28b46c26ee2a80a78d78364e:Cancel@localhost: missing entry.
+2022-03-02 02:48:00,535 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 13ms
+2022-03-02 02:49:00,541 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 6ms
+2022-03-02 02:50:00,560 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 19ms
+2022-03-02 02:50:08,218 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-IP/api-ip:24a9ba4b55b5326478106098cd9f11b3 with status UP (replication=false)
+2022-03-02 02:50:08,733 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-IP/api-ip:24a9ba4b55b5326478106098cd9f11b3 with status UP (replication=true)
+2022-03-02 02:51:00,570 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 10ms
+2022-03-02 02:51:18,375 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-IP/api-ip:24a9ba4b55b5326478106098cd9f11b3 with status DOWN (replication=false)
+2022-03-02 02:51:18,904 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-IP/api-ip:24a9ba4b55b5326478106098cd9f11b3 with status DOWN (replication=true)
+2022-03-02 02:51:21,982 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Cancelled instance API-IP/api-ip:24a9ba4b55b5326478106098cd9f11b3 (replication=false)
+2022-03-02 02:51:22,500 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:24a9ba4b55b5326478106098cd9f11b3
+2022-03-02 02:51:22,501 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-3] Not Found (Cancel): API-IP - api-ip:24a9ba4b55b5326478106098cd9f11b3
+2022-03-02 02:51:22,506 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-8] The replication of task API-IP/api-ip:24a9ba4b55b5326478106098cd9f11b3:Cancel@localhost failed with response code 404
+2022-03-02 02:51:22,506 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-8] API-IP/api-ip:24a9ba4b55b5326478106098cd9f11b3:Cancel@localhost: missing entry.
+2022-03-02 02:52:00,575 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-03-02 02:52:12,057 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-IP/api-ip:427bae93eb088a1682c5a4391910659f with status UP (replication=false)
+2022-03-02 02:52:12,587 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-IP/api-ip:427bae93eb088a1682c5a4391910659f with status UP (replication=true)
+2022-03-02 02:53:00,344 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 3
+2022-03-02 02:53:00,609 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 33ms
+2022-03-02 02:53:38,514 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/api-ip:427bae93eb088a1682c5a4391910659f with status DOWN (replication=false)
+2022-03-02 02:53:39,040 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-IP/api-ip:427bae93eb088a1682c5a4391910659f with status DOWN (replication=true)
+2022-03-02 02:53:42,015 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Cancelled instance API-IP/api-ip:427bae93eb088a1682c5a4391910659f (replication=false)
+2022-03-02 02:53:42,726 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:427bae93eb088a1682c5a4391910659f
+2022-03-02 02:53:42,731 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-8] Not Found (Cancel): API-IP - api-ip:427bae93eb088a1682c5a4391910659f
+2022-03-02 02:53:42,735 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-14] The replication of task API-IP/api-ip:427bae93eb088a1682c5a4391910659f:Cancel@localhost failed with response code 404
+2022-03-02 02:53:42,735 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-14] API-IP/api-ip:427bae93eb088a1682c5a4391910659f:Cancel@localhost: missing entry.
+2022-03-02 02:54:00,615 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-03-02 02:54:18,340 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-IP/api-ip:6782409f7d0dd5bc53aa5f6055ba8fb5 with status UP (replication=false)
+2022-03-02 02:54:18,875 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-IP/api-ip:6782409f7d0dd5bc53aa5f6055ba8fb5 with status UP (replication=true)
+2022-03-02 02:55:00,629 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 14ms
+2022-03-02 02:55:16,529 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-IP/api-ip:6782409f7d0dd5bc53aa5f6055ba8fb5 with status DOWN (replication=false)
+2022-03-02 02:55:17,052 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-IP/api-ip:6782409f7d0dd5bc53aa5f6055ba8fb5 with status DOWN (replication=true)
+2022-03-02 02:55:19,940 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Cancelled instance API-IP/api-ip:6782409f7d0dd5bc53aa5f6055ba8fb5 (replication=false)
+2022-03-02 02:55:20,462 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:6782409f7d0dd5bc53aa5f6055ba8fb5
+2022-03-02 02:55:20,463 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-2] Not Found (Cancel): API-IP - api-ip:6782409f7d0dd5bc53aa5f6055ba8fb5
+2022-03-02 02:55:20,464 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-19] The replication of task API-IP/api-ip:6782409f7d0dd5bc53aa5f6055ba8fb5:Cancel@localhost failed with response code 404
+2022-03-02 02:55:20,465 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-19] API-IP/api-ip:6782409f7d0dd5bc53aa5f6055ba8fb5:Cancel@localhost: missing entry.
+2022-03-02 02:55:41,464 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-IP/api-ip:ea6e12a0422ba694130e56a4efb8a546 with status UP (replication=false)
+2022-03-02 02:55:41,992 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-IP/api-ip:ea6e12a0422ba694130e56a4efb8a546 with status UP (replication=true)
+2022-03-02 02:56:00,713 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 84ms
+2022-03-02 02:57:00,717 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-03-02 02:57:05,769 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/api-ip:ea6e12a0422ba694130e56a4efb8a546 with status DOWN (replication=false)
+2022-03-02 02:57:06,296 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-IP/api-ip:ea6e12a0422ba694130e56a4efb8a546 with status DOWN (replication=true)
+2022-03-02 02:57:07,897 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application API-EUREKA-SERVER with eureka with status DOWN
+2022-03-02 02:57:08,140 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2022-03-02 02:57:08,146 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2022-03-02 02:57:08,151 INFO com.netflix.servo.monitor.StatsMonitor [SpringApplicationShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2022-03-02 02:57:08,156 INFO com.netflix.servo.monitor.StatsMonitor [SpringApplicationShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2022-03-02 02:57:08,157 INFO com.netflix.servo.monitor.StatsMonitor [SpringApplicationShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2022-03-02 02:57:08,158 INFO com.netflix.servo.monitor.StatsMonitor [SpringApplicationShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2022-03-02 02:57:08,196 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2022-03-02 02:57:08,196 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2022-03-02 02:57:08,197 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2022-03-02 02:57:08,211 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2022-03-02 02:57:08,239 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-02 02:57:08,240 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-03-02 03:20:35,681 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EurekaServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 16484 (C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\EurekaServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\EurekaServer)
+2022-03-02 03:20:35,688 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-02 03:20:35,848 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-02 03:20:35,849 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-02 03:20:38,943 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=3c131a2e-ca07-38b6-81a7-378a94b6f8b8
+2022-03-02 03:20:40,998 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8761 (http)
+2022-03-02 03:20:41,028 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8761"]
+2022-03-02 03:20:41,046 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-02 03:20:41,047 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-02 03:20:41,490 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-02 03:20:41,490 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 5639 ms
+2022-03-02 03:20:42,876 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [restartedMain] Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-03-02 03:20:42,998 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-02 03:20:43,001 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-02 03:20:43,550 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-02 03:20:43,551 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-02 03:20:48,003 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-03-02 03:20:48,460 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses Jersey
+2022-03-02 03:20:48,774 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-02 03:20:48,839 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-02 03:20:48,899 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-02 03:20:48,900 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Client configured to neither register nor query for data.
+2022-03-02 03:20:48,915 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646212848912 with initial instances count: 0
+2022-03-02 03:20:49,035 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initializing ...
+2022-03-02 03:20:49,135 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Adding new peer nodes [http://localhost:8761/eureka/]
+2022-03-02 03:20:49,718 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-02 03:20:49,719 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-02 03:20:49,719 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-02 03:20:49,720 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-02 03:20:50,078 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Replica node URL:  http://localhost:8761/eureka/
+2022-03-02 03:20:50,091 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [restartedMain] Finished initializing remote region registries. All known remote regions: []
+2022-03-02 03:20:50,093 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initialized
+2022-03-02 03:20:50,136 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-03-02 03:20:50,271 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-EUREKA-SERVER with eureka with status UP
+2022-03-02 03:20:50,276 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8761"]
+2022-03-02 03:20:50,362 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8761 (http) with context path ''
+2022-03-02 03:20:50,366 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Setting the eureka configuration..
+2022-03-02 03:20:50,372 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8761
+2022-03-02 03:20:50,390 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] isAws returned false
+2022-03-02 03:20:50,392 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Initialized server context
+2022-03-02 03:20:50,441 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Got 1 instances from neighboring DS node
+2022-03-02 03:20:50,441 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Renew threshold is: 1
+2022-03-02 03:20:50,442 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Changing status to UP
+2022-03-02 03:20:50,451 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-15] Started Eureka Server
+2022-03-02 03:20:52,820 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EurekaServerApplication in 18.979 seconds (JVM running for 21.094)
+2022-03-02 03:21:01,514 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-02 03:21:01,514 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-03-02 03:21:01,516 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 1 ms
+2022-03-02 03:21:02,068 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/api-ip:f2c985def2cd3e0e0c55d674125a6912 with status UP (replication=false)
+2022-03-02 03:21:02,758 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-IP/api-ip:f2c985def2cd3e0e0c55d674125a6912 with status UP (replication=true)
+2022-03-02 03:21:50,445 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-02 03:22:14,034 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-IP/api-ip:f2c985def2cd3e0e0c55d674125a6912 with status DOWN (replication=false)
+2022-03-02 03:22:14,560 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-IP/api-ip:f2c985def2cd3e0e0c55d674125a6912 with status DOWN (replication=true)
+2022-03-02 03:22:17,673 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Cancelled instance API-IP/api-ip:f2c985def2cd3e0e0c55d674125a6912 (replication=false)
+2022-03-02 03:22:18,200 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:f2c985def2cd3e0e0c55d674125a6912
+2022-03-02 03:22:18,200 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-5] Not Found (Cancel): API-IP - api-ip:f2c985def2cd3e0e0c55d674125a6912
+2022-03-02 03:22:18,202 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-13] The replication of task API-IP/api-ip:f2c985def2cd3e0e0c55d674125a6912:Cancel@localhost failed with response code 404
+2022-03-02 03:22:18,202 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-13] API-IP/api-ip:f2c985def2cd3e0e0c55d674125a6912:Cancel@localhost: missing entry.
+2022-03-02 03:22:50,483 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 38ms
+2022-03-02 03:23:06,208 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-IP/api-ip:63064c110b90debd2f516818ad473764 with status UP (replication=false)
+2022-03-02 03:23:06,721 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-IP/api-ip:63064c110b90debd2f516818ad473764 with status UP (replication=true)
+2022-03-02 03:23:45,845 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-IP/api-ip:63064c110b90debd2f516818ad473764 with status DOWN (replication=false)
+2022-03-02 03:23:46,370 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-IP/api-ip:63064c110b90debd2f516818ad473764 with status DOWN (replication=true)
+2022-03-02 03:23:49,296 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Cancelled instance API-IP/api-ip:63064c110b90debd2f516818ad473764 (replication=false)
+2022-03-02 03:23:49,824 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:63064c110b90debd2f516818ad473764
+2022-03-02 03:23:49,826 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-8] Not Found (Cancel): API-IP - api-ip:63064c110b90debd2f516818ad473764
+2022-03-02 03:23:49,828 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-0] The replication of task API-IP/api-ip:63064c110b90debd2f516818ad473764:Cancel@localhost failed with response code 404
+2022-03-02 03:23:49,828 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-0] API-IP/api-ip:63064c110b90debd2f516818ad473764:Cancel@localhost: missing entry.
+2022-03-02 03:23:50,488 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-03-02 03:24:22,533 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-IP/api-ip:41752a3fbd7621bb985dcf48d394d68d with status UP (replication=false)
+2022-03-02 03:24:23,051 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/api-ip:41752a3fbd7621bb985dcf48d394d68d with status UP (replication=true)
+2022-03-02 03:24:50,491 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 2ms
+2022-03-02 03:25:01,541 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-IP/api-ip:41752a3fbd7621bb985dcf48d394d68d with status DOWN (replication=false)
+2022-03-02 03:25:02,067 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-IP/api-ip:41752a3fbd7621bb985dcf48d394d68d with status DOWN (replication=true)
+2022-03-02 03:25:04,993 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Cancelled instance API-IP/api-ip:41752a3fbd7621bb985dcf48d394d68d (replication=false)
+2022-03-02 03:25:05,519 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:41752a3fbd7621bb985dcf48d394d68d
+2022-03-02 03:25:05,520 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-1] Not Found (Cancel): API-IP - api-ip:41752a3fbd7621bb985dcf48d394d68d
+2022-03-02 03:25:05,521 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-0] The replication of task API-IP/api-ip:41752a3fbd7621bb985dcf48d394d68d:Cancel@localhost failed with response code 404
+2022-03-02 03:25:05,522 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-0] API-IP/api-ip:41752a3fbd7621bb985dcf48d394d68d:Cancel@localhost: missing entry.
+2022-03-02 03:25:30,905 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-IP/api-ip:2fbc3a145092124220de41aa6b008eae with status UP (replication=false)
+2022-03-02 03:25:31,436 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-IP/api-ip:2fbc3a145092124220de41aa6b008eae with status UP (replication=true)
+2022-03-02 03:25:50,497 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 6ms
+2022-03-02 03:26:03,508 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-IP/api-ip:2fbc3a145092124220de41aa6b008eae with status DOWN (replication=false)
+2022-03-02 03:26:04,038 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-IP/api-ip:2fbc3a145092124220de41aa6b008eae with status DOWN (replication=true)
+2022-03-02 03:26:06,929 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Cancelled instance API-IP/api-ip:2fbc3a145092124220de41aa6b008eae (replication=false)
+2022-03-02 03:26:07,457 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:2fbc3a145092124220de41aa6b008eae
+2022-03-02 03:26:07,460 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-4] Not Found (Cancel): API-IP - api-ip:2fbc3a145092124220de41aa6b008eae
+2022-03-02 03:26:07,462 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-15] The replication of task API-IP/api-ip:2fbc3a145092124220de41aa6b008eae:Cancel@localhost failed with response code 404
+2022-03-02 03:26:07,462 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-15] API-IP/api-ip:2fbc3a145092124220de41aa6b008eae:Cancel@localhost: missing entry.
+2022-03-02 03:26:14,414 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application API-EUREKA-SERVER with eureka with status DOWN
+2022-03-02 03:26:14,592 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2022-03-02 03:26:14,616 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2022-03-02 03:26:14,684 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2022-03-02 03:26:14,685 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2022-03-02 03:26:14,688 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2022-03-02 03:26:14,704 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2022-03-02 03:26:14,721 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-02 03:26:14,723 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-03-02 15:26:58,381 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EurekaServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 10976 (C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\EurekaServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\EurekaServer)
+2022-03-02 15:26:58,388 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-02 15:26:58,684 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-02 15:26:58,685 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-02 15:27:01,634 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=3c131a2e-ca07-38b6-81a7-378a94b6f8b8
+2022-03-02 15:27:02,790 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8761 (http)
+2022-03-02 15:27:02,816 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8761"]
+2022-03-02 15:27:02,817 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-02 15:27:02,817 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-02 15:27:03,036 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-02 15:27:03,037 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4349 ms
+2022-03-02 15:27:04,480 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [restartedMain] Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-03-02 15:27:04,611 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-02 15:27:04,614 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-02 15:27:05,010 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-02 15:27:05,010 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-02 15:27:07,763 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-03-02 15:27:08,088 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses Jersey
+2022-03-02 15:27:08,224 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-02 15:27:08,265 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-02 15:27:08,362 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-02 15:27:08,362 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Client configured to neither register nor query for data.
+2022-03-02 15:27:08,384 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646256428382 with initial instances count: 0
+2022-03-02 15:27:08,486 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initializing ...
+2022-03-02 15:27:08,490 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Adding new peer nodes [http://localhost:8761/eureka/]
+2022-03-02 15:27:09,192 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-02 15:27:09,192 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-02 15:27:09,193 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-02 15:27:09,193 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-02 15:27:09,629 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Replica node URL:  http://localhost:8761/eureka/
+2022-03-02 15:27:09,654 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [restartedMain] Finished initializing remote region registries. All known remote regions: []
+2022-03-02 15:27:09,656 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initialized
+2022-03-02 15:27:09,665 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-03-02 15:27:09,724 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-EUREKA-SERVER with eureka with status UP
+2022-03-02 15:27:09,730 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8761"]
+2022-03-02 15:27:09,730 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Setting the eureka configuration..
+2022-03-02 15:27:09,779 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] isAws returned false
+2022-03-02 15:27:09,780 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Initialized server context
+2022-03-02 15:27:09,780 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Got 1 instances from neighboring DS node
+2022-03-02 15:27:09,780 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Renew threshold is: 1
+2022-03-02 15:27:09,781 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Changing status to UP
+2022-03-02 15:27:09,810 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-15] Started Eureka Server
+2022-03-02 15:27:09,872 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8761 (http) with context path ''
+2022-03-02 15:27:09,873 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8761
+2022-03-02 15:27:10,177 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EurekaServerApplication in 13.29 seconds (JVM running for 18.878)
+2022-03-02 15:27:12,382 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8761-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-02 15:27:12,383 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-03-02 15:27:12,384 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-2] Completed initialization in 1 ms
+2022-03-02 15:28:09,846 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-02 15:28:24,033 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-IP/api-ip:24837505eec690488089ed5135316671 with status UP (replication=false)
+2022-03-02 15:28:25,185 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-IP/api-ip:24837505eec690488089ed5135316671 with status UP (replication=true)
+2022-03-02 15:28:44,847 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-IP/api-ip:dbeb6df6ebd1add35763d7430b5f287c with status UP (replication=false)
+2022-03-02 15:28:45,378 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-IP/api-ip:dbeb6df6ebd1add35763d7430b5f287c with status UP (replication=true)
+2022-03-02 15:29:09,864 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 18ms
+2022-03-02 15:29:57,074 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 with status UP (replication=false)
+2022-03-02 15:29:57,606 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 with status UP (replication=true)
+2022-03-02 15:30:09,865 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-02 15:31:09,869 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-03-02 15:32:09,873 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-03-02 15:32:43,347 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-IP/api-ip:24837505eec690488089ed5135316671 with status DOWN (replication=false)
+2022-03-02 15:32:43,529 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-IP/api-ip:dbeb6df6ebd1add35763d7430b5f287c with status DOWN (replication=false)
+2022-03-02 15:32:43,870 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-IP/api-ip:24837505eec690488089ed5135316671 with status DOWN (replication=true)
+2022-03-02 15:32:43,871 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-IP/api-ip:dbeb6df6ebd1add35763d7430b5f287c with status DOWN (replication=true)
+2022-03-02 15:32:45,691 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 with status DOWN (replication=false)
+2022-03-02 15:32:46,224 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 with status DOWN (replication=true)
+2022-03-02 15:32:46,877 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Cancelled instance API-IP/api-ip:24837505eec690488089ed5135316671 (replication=false)
+2022-03-02 15:32:47,056 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Cancelled instance API-IP/api-ip:dbeb6df6ebd1add35763d7430b5f287c (replication=false)
+2022-03-02 15:32:47,402 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:24837505eec690488089ed5135316671
+2022-03-02 15:32:47,403 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-4] Not Found (Cancel): API-IP - api-ip:24837505eec690488089ed5135316671
+2022-03-02 15:32:47,404 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] DS: Registry: cancel failed because Lease is not registered for: API-IP/api-ip:dbeb6df6ebd1add35763d7430b5f287c
+2022-03-02 15:32:47,404 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-4] Not Found (Cancel): API-IP - api-ip:dbeb6df6ebd1add35763d7430b5f287c
+2022-03-02 15:32:47,407 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-13] The replication of task API-IP/api-ip:24837505eec690488089ed5135316671:Cancel@localhost failed with response code 404
+2022-03-02 15:32:47,407 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-13] API-IP/api-ip:24837505eec690488089ed5135316671:Cancel@localhost: missing entry.
+2022-03-02 15:32:47,408 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-13] The replication of task API-IP/api-ip:dbeb6df6ebd1add35763d7430b5f287c:Cancel@localhost failed with response code 404
+2022-03-02 15:32:47,408 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-13] API-IP/api-ip:dbeb6df6ebd1add35763d7430b5f287c:Cancel@localhost: missing entry.
+2022-03-02 15:32:49,189 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application API-EUREKA-SERVER with eureka with status DOWN
+2022-03-02 15:32:49,645 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2022-03-02 15:32:49,655 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2022-03-02 15:32:49,686 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2022-03-02 15:32:49,686 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2022-03-02 15:32:49,687 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2022-03-02 15:32:49,728 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2022-03-02 15:32:49,750 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-02 15:32:49,752 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient

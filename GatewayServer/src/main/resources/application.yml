@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: api-ip
+          uri: lb://api-ip
+          predicates:
+              - Path=/api-gateway/**
+          filters:
+            - StripPrefix=1

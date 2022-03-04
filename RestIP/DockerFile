@@ -1,0 +1,4 @@
+FROM openjdk:11
+VOLUME  /tmp
+ADD ./target/RestIP-1.0.jar rest-ip.jar
+ENTRYPOINT ["java","-jar","/rest-ip.jar"]

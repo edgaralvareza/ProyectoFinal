@@ -1,0 +1,510 @@
+2022-03-03 02:43:00,458 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
+2022-03-03 02:43:00,487 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 3128 (C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer)
+2022-03-03 02:43:00,492 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 02:43:00,620 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-03 02:43:00,622 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-03 02:43:02,407 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=f852618a-6c60-3326-a4a7-8622db14c26a
+2022-03-03 02:43:02,934 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 02:43:02,951 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 02:43:02,956 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 02:43:05,036 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-03-03 02:43:05,036 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-03-03 02:43:05,037 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-03-03 02:43:05,037 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-03-03 02:43:05,037 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-03-03 02:43:05,038 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-03-03 02:43:05,038 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-03-03 02:43:05,038 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-03-03 02:43:05,039 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-03-03 02:43:05,039 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-03-03 02:43:05,040 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-03-03 02:43:05,040 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-03-03 02:43:05,040 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-03-03 02:43:05,041 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-03-03 02:43:05,610 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-03-03 02:43:05,637 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-03-03 02:43:06,056 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-03 02:43:06,098 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-03 02:43:06,269 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-03 02:43:06,288 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-03-03 02:43:06,332 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-03-03 02:43:06,333 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-03-03 02:43:06,333 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-03-03 02:43:06,334 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-03-03 02:43:06,337 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-03-03 02:43:06,338 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-03-03 02:43:06,338 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-03-03 02:43:07,354 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-03-03 02:43:07,358 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-03-03 02:43:07,363 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-03 02:43:07,371 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646296987369 with initial instances count: 0
+2022-03-03 02:43:07,373 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-GATEWAY-SERVER with eureka with status UP
+2022-03-03 02:43:07,374 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1646296987374, current=UP, previous=STARTING]
+2022-03-03 02:43:07,377 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 02:43:07,659 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 02:43:07,846 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-03-03 02:43:07,848 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-03-03 02:43:08,190 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayServerApplication in 8.809 seconds (JVM running for 10.931)
+2022-03-03 02:43:37,373 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2022-03-03 02:43:37,373 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2022-03-03 02:43:37,374 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2022-03-03 02:43:37,374 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2022-03-03 02:43:37,375 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2022-03-03 02:43:37,375 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2022-03-03 02:43:37,433 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2022-03-03 02:43:37,470 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2022-03-03 02:48:02,753 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-3] No servers available for service: api-ip
+2022-03-03 02:48:06,353 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-03-03 02:51:35,228 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-3] No servers available for service: api-ip
+2022-03-03 02:51:38,032 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-3] No servers available for service: api-ip
+2022-03-03 02:53:06,364 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-03-03 02:53:19,944 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-3] No servers available for service: api-ip
+2022-03-03 02:53:24,619 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-3] No servers available for service: api-ip
+2022-03-03 02:53:28,025 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-3] No servers available for service: api-ip
+2022-03-03 02:53:42,811 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application API-GATEWAY-SERVER with eureka with status DOWN
+2022-03-03 02:53:42,812 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1646297622812, current=DOWN, previous=UP]
+2022-03-03 02:53:42,813 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 02:53:42,855 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 02:53:44,923 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-03 02:53:47,934 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-03-03 02:53:47,952 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - deregister  status: 200
+2022-03-03 02:53:47,959 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-03-03 02:53:55,102 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
+2022-03-03 02:53:55,118 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 14836 (C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer)
+2022-03-03 02:53:55,123 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 02:53:55,227 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-03 02:53:55,228 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-03 02:53:56,928 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=f852618a-6c60-3326-a4a7-8622db14c26a
+2022-03-03 02:53:57,065 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 02:53:57,067 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 02:53:57,069 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 02:53:58,717 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-03-03 02:53:58,718 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-03-03 02:53:58,718 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-03-03 02:53:58,719 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-03-03 02:53:58,719 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-03-03 02:53:58,719 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-03-03 02:53:58,719 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-03-03 02:53:58,720 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-03-03 02:53:58,721 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-03-03 02:53:58,721 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-03-03 02:53:58,721 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-03-03 02:53:58,721 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-03-03 02:53:58,721 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-03-03 02:53:58,721 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-03-03 02:53:59,170 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-03-03 02:53:59,191 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-03-03 02:53:59,641 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-03 02:53:59,681 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-03 02:53:59,887 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-03 02:53:59,901 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-03-03 02:53:59,958 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-03-03 02:53:59,959 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-03-03 02:53:59,960 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-03-03 02:53:59,962 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-03-03 02:53:59,962 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-03-03 02:53:59,963 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-03-03 02:53:59,963 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-03-03 02:54:00,735 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-03-03 02:54:00,740 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-03-03 02:54:00,744 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-03 02:54:00,755 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646297640752 with initial instances count: 1
+2022-03-03 02:54:00,757 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-GATEWAY-SERVER with eureka with status UP
+2022-03-03 02:54:00,758 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1646297640758, current=UP, previous=STARTING]
+2022-03-03 02:54:00,763 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 02:54:00,876 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 02:54:01,222 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-03-03 02:54:01,223 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-03-03 02:54:01,497 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayServerApplication in 7.396 seconds (JVM running for 9.213)
+2022-03-03 02:58:17,257 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application API-GATEWAY-SERVER with eureka with status DOWN
+2022-03-03 02:58:17,258 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1646297897258, current=DOWN, previous=UP]
+2022-03-03 02:58:17,258 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 02:58:17,273 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 02:58:19,357 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-03 02:58:22,377 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-03-03 02:58:22,419 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - deregister  status: 200
+2022-03-03 02:58:22,438 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-03-03 02:58:41,021 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
+2022-03-03 02:58:41,033 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 1352 (C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer)
+2022-03-03 02:58:41,036 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 02:58:41,149 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-03 02:58:41,149 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-03 02:58:42,887 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=f852618a-6c60-3326-a4a7-8622db14c26a
+2022-03-03 02:58:43,030 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 02:58:43,032 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 02:58:43,036 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 02:58:44,685 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-03-03 02:58:44,686 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-03-03 02:58:44,687 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-03-03 02:58:44,690 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-03-03 02:58:44,691 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-03-03 02:58:44,691 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-03-03 02:58:44,691 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-03-03 02:58:44,692 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-03-03 02:58:44,692 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-03-03 02:58:44,692 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-03-03 02:58:44,693 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-03-03 02:58:44,693 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-03-03 02:58:44,694 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-03-03 02:58:44,694 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-03-03 02:58:45,192 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-03-03 02:58:45,211 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-03-03 02:58:45,671 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-03 02:58:45,713 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-03 02:58:45,885 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-03 02:58:45,898 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-03-03 02:58:45,946 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-03-03 02:58:45,946 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-03-03 02:58:45,947 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-03-03 02:58:45,947 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-03-03 02:58:45,947 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-03-03 02:58:45,948 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-03-03 02:58:45,948 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-03-03 02:58:46,617 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-03-03 02:58:46,621 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-03-03 02:58:46,627 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-03 02:58:46,637 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646297926634 with initial instances count: 0
+2022-03-03 02:58:46,641 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-GATEWAY-SERVER with eureka with status UP
+2022-03-03 02:58:46,642 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1646297926642, current=UP, previous=STARTING]
+2022-03-03 02:58:46,649 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 02:58:46,776 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 02:58:47,098 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-03-03 02:58:47,100 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-03-03 02:58:47,362 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayServerApplication in 7.501 seconds (JVM running for 9.196)
+2022-03-03 02:58:58,278 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-3] No servers available for service: api-ip
+2022-03-03 02:59:00,911 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-3] No servers available for service: api-ip
+2022-03-03 02:59:05,274 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application API-GATEWAY-SERVER with eureka with status DOWN
+2022-03-03 02:59:05,274 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1646297945274, current=DOWN, previous=UP]
+2022-03-03 02:59:05,275 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 02:59:05,287 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 02:59:07,360 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-03 02:59:10,377 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-03-03 02:59:10,391 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - deregister  status: 200
+2022-03-03 02:59:10,397 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-03-03 02:59:16,464 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
+2022-03-03 02:59:16,482 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 11128 (C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer)
+2022-03-03 02:59:16,484 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 02:59:16,612 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-03 02:59:16,612 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-03 02:59:18,230 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=f852618a-6c60-3326-a4a7-8622db14c26a
+2022-03-03 02:59:18,387 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 02:59:18,389 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 02:59:18,392 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 02:59:20,104 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-03-03 02:59:20,105 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-03-03 02:59:20,106 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-03-03 02:59:20,106 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-03-03 02:59:20,107 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-03-03 02:59:20,107 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-03-03 02:59:20,108 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-03-03 02:59:20,108 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-03-03 02:59:20,109 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-03-03 02:59:20,109 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-03-03 02:59:20,109 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-03-03 02:59:20,109 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-03-03 02:59:20,109 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-03-03 02:59:20,110 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-03-03 02:59:20,765 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-03-03 02:59:20,783 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-03-03 02:59:21,237 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-03 02:59:21,279 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-03 02:59:21,482 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-03 02:59:21,494 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-03-03 02:59:21,541 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-03-03 02:59:21,541 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-03-03 02:59:21,542 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-03-03 02:59:21,543 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-03-03 02:59:21,544 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-03-03 02:59:21,544 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-03-03 02:59:21,544 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-03-03 02:59:22,253 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-03-03 02:59:22,258 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-03-03 02:59:22,264 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-03 02:59:22,272 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646297962270 with initial instances count: 2
+2022-03-03 02:59:22,274 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-GATEWAY-SERVER with eureka with status UP
+2022-03-03 02:59:22,277 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1646297962277, current=UP, previous=STARTING]
+2022-03-03 02:59:22,281 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 02:59:22,376 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 02:59:22,697 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-03-03 02:59:22,698 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-03-03 02:59:22,943 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayServerApplication in 7.495 seconds (JVM running for 9.207)
+2022-03-03 03:00:46,877 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application API-GATEWAY-SERVER with eureka with status DOWN
+2022-03-03 03:00:46,878 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1646298046878, current=DOWN, previous=UP]
+2022-03-03 03:00:46,878 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 03:00:46,911 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 03:00:48,970 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-03 03:00:51,981 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-03-03 03:00:51,997 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - deregister  status: 200
+2022-03-03 03:00:52,003 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-03-03 03:01:31,329 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
+2022-03-03 03:01:31,347 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 948 (C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer)
+2022-03-03 03:01:31,351 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 03:01:31,456 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-03 03:01:31,456 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-03 03:01:33,114 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=f852618a-6c60-3326-a4a7-8622db14c26a
+2022-03-03 03:01:33,241 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 03:01:33,242 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 03:01:33,245 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 03:01:35,014 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-03-03 03:01:35,014 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-03-03 03:01:35,016 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-03-03 03:01:35,017 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-03-03 03:01:35,017 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-03-03 03:01:35,017 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-03-03 03:01:35,018 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-03-03 03:01:35,019 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-03-03 03:01:35,020 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-03-03 03:01:35,020 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-03-03 03:01:35,021 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-03-03 03:01:35,021 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-03-03 03:01:35,022 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-03-03 03:01:35,022 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-03-03 03:01:35,477 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-03-03 03:01:35,496 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-03-03 03:01:35,967 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-03 03:01:36,011 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-03 03:01:36,181 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-03 03:01:36,192 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-03-03 03:01:36,256 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-03-03 03:01:36,257 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-03-03 03:01:36,258 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-03-03 03:01:36,262 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-03-03 03:01:36,263 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-03-03 03:01:36,263 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-03-03 03:01:36,264 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-03-03 03:01:36,987 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-03-03 03:01:36,991 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-03-03 03:01:36,995 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-03 03:01:37,004 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646298097002 with initial instances count: 1
+2022-03-03 03:01:37,006 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-GATEWAY-SERVER with eureka with status UP
+2022-03-03 03:01:37,007 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1646298097007, current=UP, previous=STARTING]
+2022-03-03 03:01:37,011 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 03:01:37,115 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 03:01:37,456 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-03-03 03:01:37,457 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-03-03 03:01:37,701 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayServerApplication in 7.429 seconds (JVM running for 9.159)
+2022-03-03 03:06:36,272 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-03-03 03:11:36,287 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-03-03 03:15:21,324 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application API-GATEWAY-SERVER with eureka with status DOWN
+2022-03-03 03:15:21,325 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1646298921325, current=DOWN, previous=UP]
+2022-03-03 03:15:21,325 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 03:15:21,334 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 03:15:23,431 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-03 03:15:26,445 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-03-03 03:15:26,460 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - deregister  status: 200
+2022-03-03 03:15:26,468 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-03-03 03:24:46,528 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
+2022-03-03 03:24:46,546 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 8796 (C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer)
+2022-03-03 03:24:46,552 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 03:24:46,658 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-03 03:24:46,660 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-03 03:24:48,444 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=f852618a-6c60-3326-a4a7-8622db14c26a
+2022-03-03 03:24:48,575 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 03:24:48,577 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 03:24:48,579 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 03:24:50,238 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-03-03 03:24:50,240 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-03-03 03:24:50,240 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-03-03 03:24:50,241 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-03-03 03:24:50,241 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-03-03 03:24:50,241 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-03-03 03:24:50,242 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-03-03 03:24:50,242 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-03-03 03:24:50,243 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-03-03 03:24:50,243 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-03-03 03:24:50,243 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-03-03 03:24:50,243 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-03-03 03:24:50,243 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-03-03 03:24:50,244 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-03-03 03:24:50,690 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-03-03 03:24:50,712 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-03-03 03:24:51,157 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-03 03:24:51,195 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-03 03:24:51,384 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-03 03:24:51,396 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-03-03 03:24:51,458 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-03-03 03:24:51,459 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-03-03 03:24:51,459 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-03-03 03:24:51,461 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-03-03 03:24:51,461 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-03-03 03:24:51,462 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-03-03 03:24:51,463 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-03-03 03:24:52,205 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-03-03 03:24:52,209 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-03-03 03:24:52,215 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-03 03:24:52,242 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646299492240 with initial instances count: 0
+2022-03-03 03:24:52,253 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-GATEWAY-SERVER with eureka with status UP
+2022-03-03 03:24:52,254 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1646299492254, current=UP, previous=STARTING]
+2022-03-03 03:24:52,258 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 03:24:52,378 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 03:24:52,716 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-03-03 03:24:52,718 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-03-03 03:24:52,960 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayServerApplication in 7.492 seconds (JVM running for 9.251)
+2022-03-03 03:25:00,845 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-3] No servers available for service: api-ip
+2022-03-03 03:25:03,527 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-3] No servers available for service: api-ip
+2022-03-03 03:25:07,547 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application API-GATEWAY-SERVER with eureka with status DOWN
+2022-03-03 03:25:07,548 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1646299507548, current=DOWN, previous=UP]
+2022-03-03 03:25:07,548 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 03:25:07,555 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 03:25:09,629 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-03 03:25:12,643 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-03-03 03:25:12,659 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - deregister  status: 200
+2022-03-03 03:25:12,666 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-03-03 03:25:22,172 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
+2022-03-03 03:25:22,190 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 5292 (C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer)
+2022-03-03 03:25:22,193 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 03:25:22,307 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-03 03:25:22,308 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-03 03:25:24,012 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=f852618a-6c60-3326-a4a7-8622db14c26a
+2022-03-03 03:25:24,143 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 03:25:24,145 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 03:25:24,148 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 03:25:25,759 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-03-03 03:25:25,760 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-03-03 03:25:25,761 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-03-03 03:25:25,762 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-03-03 03:25:25,762 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-03-03 03:25:25,762 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-03-03 03:25:25,762 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-03-03 03:25:25,763 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-03-03 03:25:25,763 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-03-03 03:25:25,763 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-03-03 03:25:25,763 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-03-03 03:25:25,764 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-03-03 03:25:25,764 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-03-03 03:25:25,764 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-03-03 03:25:26,224 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-03-03 03:25:26,243 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-03-03 03:25:26,719 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-03 03:25:26,767 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-03 03:25:27,000 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-03 03:25:27,012 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-03-03 03:25:27,052 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-03-03 03:25:27,053 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-03-03 03:25:27,053 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-03-03 03:25:27,054 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-03-03 03:25:27,054 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-03-03 03:25:27,054 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-03-03 03:25:27,055 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-03-03 03:25:27,777 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-03-03 03:25:27,783 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-03-03 03:25:27,788 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-03 03:25:27,797 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646299527795 with initial instances count: 2
+2022-03-03 03:25:27,800 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-GATEWAY-SERVER with eureka with status UP
+2022-03-03 03:25:27,800 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1646299527800, current=UP, previous=STARTING]
+2022-03-03 03:25:27,804 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 03:25:27,924 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 03:25:28,257 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-03-03 03:25:28,258 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-03-03 03:25:28,536 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayServerApplication in 7.435 seconds (JVM running for 9.411)
+2022-03-03 03:27:56,667 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application API-GATEWAY-SERVER with eureka with status DOWN
+2022-03-03 03:27:56,668 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1646299676668, current=DOWN, previous=UP]
+2022-03-03 03:27:56,668 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 03:27:56,690 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 03:27:58,763 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-03 03:28:01,780 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-03-03 03:28:01,795 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - deregister  status: 200
+2022-03-03 03:28:01,802 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-03-03 03:44:48,165 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
+2022-03-03 03:44:48,187 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 8720 (C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\Proyecto Final\ProyectoFinal\GatewayServer)
+2022-03-03 03:44:48,190 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 03:44:48,342 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-03 03:44:48,343 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-03 03:44:50,433 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=f852618a-6c60-3326-a4a7-8622db14c26a
+2022-03-03 03:44:50,578 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 03:44:50,580 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 03:44:50,582 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 03:44:52,448 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-03-03 03:44:52,461 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-03-03 03:44:52,462 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-03-03 03:44:52,463 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-03-03 03:44:52,464 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-03-03 03:44:52,465 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-03-03 03:44:52,466 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-03-03 03:44:52,466 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-03-03 03:44:52,467 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-03-03 03:44:52,467 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-03-03 03:44:52,468 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-03-03 03:44:52,468 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-03-03 03:44:52,468 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-03-03 03:44:52,468 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-03-03 03:44:52,939 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-03-03 03:44:52,967 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-03-03 03:44:53,493 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-03 03:44:53,537 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-03 03:44:53,746 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-03 03:44:53,763 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-03-03 03:44:53,817 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-03-03 03:44:53,818 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-03-03 03:44:53,818 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-03-03 03:44:53,819 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-03-03 03:44:53,819 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-03-03 03:44:53,820 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-03-03 03:44:53,820 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-03-03 03:44:54,603 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-03-03 03:44:54,609 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-03-03 03:44:54,615 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-03 03:44:54,625 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646300694622 with initial instances count: 1
+2022-03-03 03:44:54,628 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-GATEWAY-SERVER with eureka with status UP
+2022-03-03 03:44:54,629 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1646300694629, current=UP, previous=STARTING]
+2022-03-03 03:44:54,633 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 03:44:54,773 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 03:44:55,153 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-03-03 03:44:55,155 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-03-03 03:44:55,442 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayServerApplication in 8.31 seconds (JVM running for 10.122)
+2022-03-03 03:49:53,825 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-03-03 03:50:15,727 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application API-GATEWAY-SERVER with eureka with status DOWN
+2022-03-03 03:50:15,727 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1646301015727, current=DOWN, previous=UP]
+2022-03-03 03:50:15,728 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 03:50:15,748 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 03:50:17,821 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-03 03:50:20,840 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-03-03 03:50:20,855 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - deregister  status: 200
+2022-03-03 03:50:20,862 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-03-03 18:33:17,411 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
+2022-03-03 18:33:17,453 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting GatewayServerApplication using Java 11.0.14.1 on DESKTOP-3LNFJC9 with PID 8736 (C:\Users\edgar\Documents\IBM\ProyectoFinal\ProyectoFinal\GatewayServer\target\classes started by edgar in C:\Users\edgar\Documents\IBM\ProyectoFinal\ProyectoFinal\GatewayServer)
+2022-03-03 18:33:17,456 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 18:33:17,578 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-03 18:33:17,578 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-03 18:33:19,459 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=f852618a-6c60-3326-a4a7-8622db14c26a
+2022-03-03 18:33:19,633 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 18:33:19,634 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 18:33:19,637 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 18:33:21,634 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [After]
+2022-03-03 18:33:21,635 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Before]
+2022-03-03 18:33:21,635 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Between]
+2022-03-03 18:33:21,636 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Cookie]
+2022-03-03 18:33:21,636 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Header]
+2022-03-03 18:33:21,637 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Host]
+2022-03-03 18:33:21,637 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Method]
+2022-03-03 18:33:21,638 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Path]
+2022-03-03 18:33:21,638 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Query]
+2022-03-03 18:33:21,638 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [ReadBody]
+2022-03-03 18:33:21,639 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [RemoteAddr]
+2022-03-03 18:33:21,640 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-03-03 18:33:21,640 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [Weight]
+2022-03-03 18:33:21,640 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [restartedMain] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-03-03 18:33:22,142 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-03-03 18:33:22,161 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-03-03 18:33:22,873 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-03 18:33:22,925 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-03 18:33:23,146 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-03 18:33:23,157 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-03-03 18:33:23,219 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-03-03 18:33:23,221 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-03-03 18:33:23,231 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-03-03 18:33:23,235 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-03-03 18:33:23,235 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-03-03 18:33:23,235 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-03-03 18:33:23,235 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-03-03 18:33:24,201 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-03-03 18:33:24,206 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-03-03 18:33:24,212 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-03 18:33:24,231 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646354004220 with initial instances count: 1
+2022-03-03 18:33:24,237 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-GATEWAY-SERVER with eureka with status UP
+2022-03-03 18:33:24,238 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1646354004238, current=UP, previous=STARTING]
+2022-03-03 18:33:24,244 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090: registering service...
+2022-03-03 18:33:24,596 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-GATEWAY-SERVER/host.docker.internal:api-gateway-server:8090 - registration status: 204
+2022-03-03 18:33:25,048 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8090
+2022-03-03 18:33:25,049 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8090
+2022-03-03 18:33:25,479 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started GatewayServerApplication in 9.251 seconds (JVM running for 11.633)
