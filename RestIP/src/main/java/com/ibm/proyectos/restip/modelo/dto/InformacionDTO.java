@@ -13,9 +13,6 @@ import java.util.HashMap;
 @Getter
 public class InformacionDTO implements Serializable
 {
-
-
-
     private String ip;
     private String codigo_pais;
     private String nombre_pais;

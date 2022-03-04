@@ -23,14 +23,8 @@ public class Pais implements Serializable
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-
-
     private String country;
-
-
-
     private String currency;
-
 
     private static final long serialVersionUID = -8518030995994248263L;
 }

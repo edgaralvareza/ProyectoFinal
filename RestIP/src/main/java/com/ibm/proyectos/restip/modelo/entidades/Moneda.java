@@ -30,9 +30,7 @@ public class Moneda implements Serializable
     private Long id;
 
     private Boolean success;
-
     private Timestamp timestamp;
-
     private String base;
 
     private HashMap<String,String> rates;

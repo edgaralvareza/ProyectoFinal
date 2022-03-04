@@ -50,6 +50,7 @@ public class IpController
      * Método para consultar información de IP y su moneda local respecto al EURO
      * @param ip Parámetro que envía el usuario
      * @return Retorna un objeto de tipo InformacionDTO
+     * @Author EEAA 03/03/2022
      */
     @GetMapping(value="/ip/consultarinfo/ip/{ip}")
     public ResponseEntity<?> ConsultarInfoIp(@PathVariable String ip) throws InterruptedException{
@@ -60,17 +61,13 @@ public class IpController
         InformacionDTO informacionDTO1=new InformacionDTO();
         try {
             ips = ipDAO.findIpbyIpContains(ip);
-
         }
-
         catch (Exception s){
-
         }
         finally {
 
             if (!ips.isPresent()) {
                 mensaje="LA IP:"+ip+" Ha sido consultada con éxito";
-                 //informacionDTO=ipDAO.recopilarInfo(ip,mensaje);
                 return circuitBreaker.create("ipcorrecta")
                         .run(()-> new ResponseEntity<InformacionDTO>(ipDAO.recopilarInfo(ip,mensaje),HttpStatus.OK)  , e->ConsultarAlternativo(ip));
             }
@@ -88,6 +85,7 @@ public class IpController
      * Método alternativo para consultar la información de IP y su moneda locar respecto al euro
      * @param ip Parámetro que envía el usuario
      * @return Retorna un objeto de tipo InformacionDTO
+     * @Author EEAA 03/03/2022
      */
     public ResponseEntity<?> ConsultarAlternativo(@PathVariable String ip){
         Optional<Ip> ips=null;

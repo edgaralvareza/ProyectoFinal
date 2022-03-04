@@ -90,26 +90,9 @@ public class IpDAOImpl implements IpDAO
             logger.info("mensaje: " + e.getMessage() + " Causa: " + e.getCause());
             throw e;
         }
-
-
-
-        String access_key= "1778fd81df8b97d81668705d53292c22";
-
-        String field="country_name,country_code";
-        Map<String, String> pathVariables = new HashMap<String, String>();
-        pathVariables.put("access_key",access_key);
-
         Pais paises = clienteRest.getForObject("http://ip-api.com/json/"+ip+"?fields=country,currency",Pais.class);
 
-
-         access_key= "6f78f21cec-7006b34da5-r805ak";
-
-
-        pathVariables = new HashMap<String, String>();
-        pathVariables.put("access_key",access_key);
-
         String codigo=paises.getCurrency();
-
         Moneda monedas = clienteRest.getForObject("http://api.exchangeratesapi.io/v1/latest?access_key=bc34342f08aeb4e8060b5819927e021f&symbols="+codigo,Moneda.class);
 
         InformacionDTO informacionMapeado= new InformacionDTO();
